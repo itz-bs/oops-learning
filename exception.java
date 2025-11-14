@@ -1,21 +1,16 @@
-package lab;
+package exception;
 import java.util.Scanner;
-public class exception {
-	public static void divide(int a,int b) {
-		try {
-			int div= a/b;
-			System.out.println("answer = "+div);
-		}catch(Exception e) {
-			System.out.println(e);
-		}System.out.println("BHAVANI SANKAR M");
-		System.out.println("2117240040015");
-	}
-	public static void main(String[]args) {
-	Scanner sc = new Scanner(System.in);
-	System.out.println("Enter the Numbers : ");
-	int a = sc.nextInt();
-	int b = sc.nextInt();
-	sc.close();
-	divide(a,b);
-	}
+public class exception{
+public static void main(String[]args) {	
+	
+try {
+    int a[]= {22,27,12};
+    System.out.println("Value of c: " + a[9]);
+} catch (Exception e) {
+    System.out.println("Error: " + e);
+} finally {
+    System.out.println("Code executed");
+}}
 }
+
+
