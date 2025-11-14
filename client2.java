@@ -2,7 +2,7 @@ package jdbc;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
-public class Client {
+public class client2 {
     public static void main(String[] args) {
         try {
             Registry registry = LocateRegistry.getRegistry("localhost", 1099);
